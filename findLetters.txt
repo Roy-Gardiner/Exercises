@@ -1,0 +1,4 @@
+Given an arbitrary string, return a string of length 26.
+
+If an 'a' or an 'A' appears anywhere in the string (any number of times), set the first character of the 
+returned string to '1' otherwise to '0', and so on for the rest of the alphabet.

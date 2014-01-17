@@ -1,0 +1,18 @@
+Given a time expressed in 24-hour form (e.g. 17.23.12) hours-minutes-seconds, express it in words as
+an English radio announcer might.
+
+00.00.00  => "Exactly midnight"
+
+Within 4 seconds of the minute, it will be said to be "exactly"
+5-14 seconds past, "just gone"
+14-5 seconds before the minute "coming up to"
+
+00.00.5 => "Just gone midnight"
+01.03.17 => "Three minutes past one"
+12.36.47 => "Coming up to twenty three minutes to one"
+
+Don't forget that 'minutes' is only said sometimes, e.g "Five past two" vs. "Six minutes past two"
+
+Don't forget "quarter past", "half past", "quarter to", "noon"
+
+Extension:  Create a loop to give a commentary of the current time.

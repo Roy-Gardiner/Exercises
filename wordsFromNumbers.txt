@@ -1,0 +1,6 @@
+Given a number in digits, return the number expressed in words
+
+123.45 => "One hundred and twenty three point four five"
+
+The number may contain commas  (e.g. 1,000.0) and if it does they will be correctly placed, you do 
+not need to check this.
